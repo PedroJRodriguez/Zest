@@ -717,6 +717,16 @@
 		)
 		(uuid "b0dd5215-606e-494f-8deb-5230be0a71ef")
 	)
+	(wire
+		(pts
+			(xy 190.5 16.51) (xy 195.58 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ec64c4-46bb-4718-9c71-5d680659c1fb")
+	)
 	(bus
 		(pts
 			(xy 107.95 157.48) (xy 114.3 157.48)
@@ -1162,6 +1172,17 @@
 		)
 		(uuid "420a21b2-5408-430b-ae8a-26fe11550629")
 	)
+	(label "VSS_negative_3P3V"
+		(at 60.96 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43952198-af7f-44a5-ac1e-186a753254a9")
+	)
 	(label "VREFADC_1P25V"
 		(at 60.96 78.74 180)
 		(fields_autoplaced yes)
@@ -1260,6 +1281,17 @@
 			(justify left bottom)
 		)
 		(uuid "64b345c9-db8c-4dc0-bdf0-e58a6007e997")
+	)
+	(label "VSS_negative_3P3V"
+		(at 195.58 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6acead1d-23b2-4f6a-8217-6282db2a5615")
 	)
 	(label "VDD1P8V"
 		(at 190.5 29.21 0)
@@ -1502,6 +1534,17 @@
 			(justify right bottom)
 		)
 		(uuid "ca89cb00-dff2-417c-bfa3-ab63328dab68")
+	)
+	(label "VDD3P3V"
+		(at 60.96 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d792751f-8310-4ab7-8302-758462da1639")
 	)
 	(label "LO_MON"
 		(at 77.47 57.15 0)
@@ -2155,7 +2198,7 @@
 	)
 	(sheet
 		(at 60.96 105.41)
-		(size 20.32 15.24)
+		(size 20.32 27.432)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2175,7 +2218,7 @@
 			)
 		)
 		(property "Sheetfile" "ad9653_adc1.kicad_sch"
-			(at 60.96 121.2346 0)
+			(at 60.96 133.4266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,6 +2286,26 @@
 			)
 			(uuid "3777f765-c526-4923-8f90-b55196f7fb07")
 		)
+		(pin "+3.3v" input
+			(at 60.96 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "488b9467-8ecc-4695-91f0-40b51adf9b65")
+		)
+		(pin "-3.3v" input
+			(at 60.96 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67253ada-5299-4a40-b8b5-9d0adec27986")
+		)
 		(instances
 			(project "zest"
 				(path "/00000000-0000-0000-0000-000000000003"
@@ -2252,8 +2315,8 @@
 		)
 	)
 	(sheet
-		(at 162.56 19.05)
-		(size 27.94 25.4)
+		(at 162.56 13.97)
+		(size 27.94 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2264,7 +2327,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000000000002")
 		(property "Sheetname" "PowerSupply"
-			(at 162.56 18.3384 0)
+			(at 162.56 13.2584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,6 +2483,16 @@
 				(justify right)
 			)
 			(uuid "9ddbd446-45f2-49f9-a8ab-818fa980e0cf")
+		)
+		(pin "VSS_negative_3P3V" input
+			(at 190.5 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0234543-4f0e-4032-bcf6-ff677af9097f")
 		)
 		(instances
 			(project "zest"

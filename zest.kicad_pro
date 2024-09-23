@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -621,11 +621,11 @@
     ],
     [
       "68037c7c-5298-4cf8-8a32-dee9b672b250",
-      "se2diff_5"
+      "se2diff_buffer_BC"
     ],
     [
       "4eb0cca3-edf1-422d-b4dd-338509c41c70",
-      "se2diff_4"
+      "se2diff_buffer_BV"
     ],
     [
       "00000000-0000-0000-0000-000000000001",
@@ -682,6 +682,10 @@
     [
       "00000000-0000-0000-0000-000000000013",
       "kx023"
+    ],
+    [
+      "7e4851e7-bd38-48ce-a309-127c5d11b5c4",
+      "Negative VOUT -3P3"
     ],
     [
       "7567a65a-9f6f-4e85-b050-1bc1643d1834",

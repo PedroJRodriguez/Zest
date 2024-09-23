@@ -2294,6 +2294,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 109.22) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0a83f4-d75d-4fb3-abce-836a08aba3d4")
+	)
+	(wire
+		(pts
 			(xy 87.63 135.89) (xy 128.27 135.89)
 		)
 		(stroke
@@ -2391,6 +2401,16 @@
 			(type default)
 		)
 		(uuid "309393f3-7a0d-4f08-95b2-92a66432bd43")
+	)
+	(wire
+		(pts
+			(xy 41.91 111.76) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34392443-d107-43b3-9b9c-643f68e943da")
 	)
 	(wire
 		(pts
@@ -2644,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 129.54) (xy 34.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cf52ba-2225-4da1-a118-63f98219c993")
+	)
+	(wire
+		(pts
 			(xy 199.39 110.49) (xy 231.14 110.49)
 		)
 		(stroke
@@ -2824,6 +2854,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 129.54) (xy 34.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebbfe73-127f-43c5-b72e-49670342cfbd")
+	)
+	(wire
+		(pts
 			(xy 200.66 95.25) (xy 200.66 92.71)
 		)
 		(stroke
@@ -2951,6 +2991,16 @@
 			(type default)
 		)
 		(uuid "af7b2b19-c85d-42c3-af86-092282db5feb")
+	)
+	(wire
+		(pts
+			(xy 30.48 127) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc3cf91-de86-486e-bb77-b98b81a85b35")
 	)
 	(wire
 		(pts
@@ -3171,6 +3221,16 @@
 			(type default)
 		)
 		(uuid "c919d7f0-e762-46cf-b309-fae537162995")
+	)
+	(wire
+		(pts
+			(xy 34.29 132.08) (xy 30.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc32aa0-f870-41dd-8dc9-b411c88c057a")
 	)
 	(wire
 		(pts
@@ -3811,6 +3871,30 @@
 		)
 		(uuid "ef905aa4-c753-4826-9b2a-da0074ee40e0")
 	)
+	(hierarchical_label "-3.3v"
+		(shape input)
+		(at 30.48 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21ef6f23-fa9f-4134-8c32-8fe1717fff0b")
+	)
+	(hierarchical_label "+3.3v"
+		(shape input)
+		(at 41.91 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79330a3d-c301-476e-9ffc-8b8c1c4a5694")
+	)
 	(hierarchical_label "ADC"
 		(shape input)
 		(at 115.57 142.24 180)
@@ -3847,6 +3931,18 @@
 		)
 		(uuid "99af0155-578c-4c76-a605-0910a5c17783")
 	)
+	(hierarchical_label "-3.3v"
+		(shape input)
+		(at 41.91 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cb9b0cf-9032-4de8-9654-d95e9e149857")
+	)
 	(hierarchical_label "VSS1P8V"
 		(shape input)
 		(at 38.1 43.18 180)
@@ -3858,6 +3954,18 @@
 			(justify right)
 		)
 		(uuid "ae7b7c21-67fe-410d-ad92-185bd2ad3744")
+	)
+	(hierarchical_label "+3.3v"
+		(shape input)
+		(at 30.48 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6612131-5d00-40d0-b827-598a68a777d2")
 	)
 	(hierarchical_label "{ADC01SPIPDNSYNC}"
 		(shape input)
@@ -4954,10 +5062,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e67b52f-f487-47a2-bc96-6c284f717c25")
 		(property "Reference" "J703"
-			(at 36.83 110.49 0)
+			(at 22.606 115.062 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4965,7 +5072,7 @@
 			)
 		)
 		(property "Value" "142-0701-201"
-			(at 36.83 113.03 0)
+			(at 20.828 117.094 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6595,8 +6702,8 @@
 		)
 	)
 	(sheet
-		(at 45.72 115.57)
-		(size 15.24 10.16)
+		(at 45.72 116.84)
+		(size 15.24 14.478)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6606,8 +6713,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4eb0cca3-edf1-422d-b4dd-338509c41c70")
-		(property "Sheetname" "se2diff_4"
-			(at 45.72 114.8584 0)
+		(property "Sheetname" "se2diff_buffer_BV"
+			(at 45.72 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,8 +6722,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "se_diff.kicad_sch"
-			(at 45.72 126.3146 0)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 45.72 131.9026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6762,7 @@
 			(uuid "00b578ec-0d9a-466f-a34e-83aef14a7c92")
 		)
 		(pin "SE-" input
-			(at 45.72 118.11 180)
+			(at 45.72 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6772,7 @@
 			(uuid "8104abba-ddef-4447-8e59-b3162dd2429d")
 		)
 		(pin "SE+" input
-			(at 45.72 120.65 180)
+			(at 45.72 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,6 +6780,26 @@
 				(justify left)
 			)
 			(uuid "275500fd-fb0f-4dd8-af1c-aa0530681801")
+		)
+		(pin "negativ_3P3" input
+			(at 45.72 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f894ac7c-3e7b-4a42-9204-b7d5519bf9ca")
+		)
+		(pin "postive_3P3V" input
+			(at 45.72 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "633ea12b-1925-437b-8889-83b192984a96")
 		)
 		(instances
 			(project "zest"
@@ -6684,7 +6811,7 @@
 	)
 	(sheet
 		(at 45.72 100.33)
-		(size 15.24 10.16)
+		(size 15.24 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6694,7 +6821,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "68037c7c-5298-4cf8-8a32-dee9b672b250")
-		(property "Sheetname" "se2diff_5"
+		(property "Sheetname" "se2diff_buffer_BC"
 			(at 45.72 99.6184 0)
 			(effects
 				(font
@@ -6703,8 +6830,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "se_diff.kicad_sch"
-			(at 45.72 111.0746 0)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 45.72 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,6 +6888,26 @@
 				(justify left)
 			)
 			(uuid "68f6ab29-1fe1-4f62-92f7-5ae2d489b2d9")
+		)
+		(pin "negativ_3P3" input
+			(at 45.72 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abe39935-1f7b-487f-95a6-c89cc6c74edc")
+		)
+		(pin "postive_3P3V" input
+			(at 45.72 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1543947-73b0-425e-a46c-f83786d77cbb")
 		)
 		(instances
 			(project "zest"
