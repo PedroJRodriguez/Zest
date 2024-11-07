@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "001_symbol")(type "KiCad")(uri "${KIPRJMOD}/downloads/combine.kicad_sym")(options "")(descr ""))
+  (lib (name "Zest_Symbols")(type "KiCad")(uri "${KIPRJMOD}/LIbraries/Zest_Symbols.kicad_sym")(options "")(descr ""))
 )
